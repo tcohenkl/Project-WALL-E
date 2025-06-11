@@ -27,6 +27,7 @@ C++:
 - [SDL2](https://www.libsdl.org/)
 - [SDL2_ttf](https://www.libsdl.org/projects/SDL_ttf/)
 - A valid `.ttf` font (e.g., `DejaVuSans.ttf`) placed in the project directory
+
 Python:
 - [OSMNX](https://osmnx.readthedocs.io/en/stable/)
 
