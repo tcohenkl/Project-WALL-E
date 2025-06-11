@@ -23,10 +23,13 @@ A modular 2D simulation built with SDL2, where a TrashBot learns to navigate a c
 ---
 
 ## 🧰 Dependencies
-
+C++:
 - [SDL2](https://www.libsdl.org/)
 - [SDL2_ttf](https://www.libsdl.org/projects/SDL_ttf/)
 - A valid `.ttf` font (e.g., `DejaVuSans.ttf`) placed in the project directory
+
+Python:
+- [OSMNX](https://osmnx.readthedocs.io/en/stable/)
 
 ## 📝 Contributing & Documentation Guidelines
 
