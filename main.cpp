@@ -348,7 +348,11 @@ int main() {
     bool running = true;
     SDL_Event event; // SDL's event Queue
     TrashBot bot(1, 0, 0);
-    std::vector<std::vector<CellType>> grid = loadGridFromFile("./grid.txt");
+    std::vector<std::vector<CellType>> grid = loadGridFromFile("./grids/grid.txt");
+
+    if (grid.empty()) {
+        std::cerr << "Grid is empty. Check the default loading file path" << std::endl;
+    }
 
     // Main Render Loop
     while (running) {
