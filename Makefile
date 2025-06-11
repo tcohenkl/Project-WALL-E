@@ -1,8 +1,8 @@
 CXX = clang++
 CXXFLAGS = -std=c++17 -Wall -I/opt/homebrew/include
-LDFLAGS = -L/opt/homebrew/lib -lSDL2
+LDFLAGS = -L/opt/homebrew/lib -lSDL2 -lSDL2_ttf
 
-TARGET = sdl2_app
+TARGET = walle
 SRC = *.cpp
 
 all:

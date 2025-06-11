@@ -1,0 +1,14 @@
+/**
+ * @brief Brief one-line description of what the function does.
+ *
+ * Detailed description (optional): Describe the purpose of the function, any
+ * important implementation notes, and how it fits in the larger program context.
+ *
+ * @param paramName1 Description of the first parameter.
+ * @param paramName2 Description of the second parameter.
+ * ...
+ * @return Description of the return value, or `void` if none.
+ *
+ * @note Any important notes (e.g., preconditions, side effects, SDL state requirements).
+ * @warning Things the user must be cautious about (e.g., memory ownership, NULL checks).
+ */
