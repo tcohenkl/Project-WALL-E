@@ -48,7 +48,7 @@ cleaned_nodes = [node for node in cleaned_nodes if node["id"] in connected_ids]
 with open("./graphs/nodes.json", "w") as f:
     json.dump(cleaned_nodes, f, indent=2)
 
-with open("./graphs/edges_edges.json", "w") as f:
+with open("./graphs/edges.json", "w") as f:
     json.dump(cleaned_edges, f, indent=2)
 
 print(f"Pruned {initial_number_of_nodes - len(cleaned_nodes)} disconnected nodes.")
